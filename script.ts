@@ -84,3 +84,4 @@ const LongSleeve: Tshirt = {
 
 Coat.print();
 Dress.print();
+LongSleeve.print();

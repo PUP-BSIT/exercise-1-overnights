@@ -44,3 +44,4 @@ var LongSleeve = {
 };
 Coat.print();
 Dress.print();
+LongSleeve.print();
