@@ -64,3 +64,5 @@ const Polo: Tshirt = {
             premium T-shirt.`);
   },
 };
+
+Coat.print();
