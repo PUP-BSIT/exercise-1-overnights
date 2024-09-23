@@ -82,6 +82,23 @@ const LongSleeve: Tshirt = {
   },
 };
 
+const OversizedTshirt: Tshirt = {
+  brand: "Zara",
+  color: "Royal Blue",
+  size: Size.XL,
+  price: 1500,
+  print() {
+    console.log(`The brand of my T-shirt is ${this.brand}, which is 
+            well-known for its quality.\n
+            It comes in a ${this.color} color, giving it a sleek and stylish 
+            look.\n
+            This T-shirt is available in size ${this.size}, perfect for a 
+            comfortable fit.\n 
+            It is priced at ${this.price}, making it a great value for a 
+            premium T-shirt.`);
+  },
+};
+
 Coat.print();
 Dress.print();
 LongSleeve.print();
